@@ -74,6 +74,6 @@ public class TransactionHistory {
     }
 
     public void toPrint() {
-        System.out.printf("%-15s %-7s %-15.1f $%-14.1f %-15s\n", transDate, ticker, qty, costBasis, transType);
+        System.out.printf("%-15s %-15s %-15.1f $%-15.1f %-15s\n", transDate, ticker, qty, costBasis, transType);
     }
 }
