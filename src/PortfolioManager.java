@@ -158,8 +158,8 @@ public class PortfolioManager {
         System.out.println("\n                Vedant Patel's Brokerage Account");
         System.out.println("\n                ================================\n");
         System.out.println();
-        System.out.printf("%-15s %-7s %-15s %-15s %-15s\n", "Date", "Ticker", "Quantity", "Cost Basis", "Trans Type");
-        System.out.println("\n==================================================================\n");
+        System.out.printf("%-15s %-15s %-15s %-15s %-15s\n", "Date", "Ticker", "Quantity", "Cost Basis", "Trans Type");
+        System.out.println("\n==========================================================================\n");
         
         for (int i = 0; i < portfolioList.size(); i++) {
             portfolioList.get(i).toPrint();
